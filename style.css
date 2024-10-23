@@ -7,6 +7,9 @@ body{
     background-color: #f1f1f1;
     color: #000;
 }
+.pak-center {
+    margin-bottom: 90px;
+}
 .main-content{
     
     width: 100%;
@@ -34,26 +37,43 @@ p{
 }
 .pak-section{
     width: 33%;
-    
-    
-}
-.pak-box{
     border: 2px solid #d5d5d5;
     padding: 20px 20px 0px 20px;
-    /* margin-bottom: -250px; */
+    background-color: #fff;
+    
+    
 }
-.pak-box:hover{
+.pak-section.pak-b {
+    margin: -30px -30px -30px -30px;
+    z-index: 999;
+}
+.pak-box {
+    margin-bottom: -16px;
+    margin-top: 50px;
+}
+.pak-box.btn-center {
+    margin-top: 82px;
+}
+.pak-section:hover{
     border: 2px solid #2a5668;  
 }
-.pak-t{
+/* .pak-t {
     margin-top: 30px;
-    /* margin-bottom: 30px; */
-}
+    margin-bottom: 30px;
+} */
+/* .pak-box.btn-left {
+    margin-bottom: -12px;
+} */
+/* .btn-center {
+    margin-top: 86px;
+} */
 .pak-b{
     /* margin-bottom: -30px; */
 }
-p.sub-title{
+p.sub-title {
     border-bottom: 2px solid #d5d5d5;
+    width: 85%;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -74,4 +94,15 @@ a.order-btn:hover{
     font-size: 50px;
     margin: 0px;
     font-weight: 400;
+}
+
+.view-btn {
+    margin-top: 112px;
+}
+.view-btn a{
+    background-color: #8fce25;
+
+}
+.view-btn a:hover{
+    background-color: #0687f5;
 }
